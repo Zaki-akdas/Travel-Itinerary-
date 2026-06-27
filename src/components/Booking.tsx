@@ -49,7 +49,7 @@ export default function Booking() {
     window.open(whatsappUrl, '_blank');
 
     try {
-      await fetch('https://script.google.com/macros/s/AKfycbx.../exec', {
+      await fetch('https://script.google.com/macros/s/AKfycbwnOYCciu6LSZ8WkG2zHDW_45_YAAGMUC168qR-VLB5ScjsPRIcBaNThbPZ-S-5Zano/exec', {
         method: 'POST',
         mode: 'no-cors',
         headers: { 'Content-Type': 'application/json' },
