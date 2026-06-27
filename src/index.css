@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Lato:wght@300;400;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Lato', sans-serif;
+
+  --color-royal-50: #eef2ff;
+  --color-royal-100: #e0e7ff;
+  --color-royal-200: #c7d2fe;
+  --color-royal-300: #a5b4fc;
+  --color-royal-400: #818cf8;
+  --color-royal-500: #1e3a8a;
+  --color-royal-600: #1a2f6e;
+  --color-royal-700: #15264f;
+  --color-royal-800: #101d3f;
+  --color-royal-900: #0c1530;
+  --color-royal-950: #070d1f;
+
+  --color-gold-300: #fcd34d;
+  --color-gold-400: #f5b942;
+  --color-gold-500: #d99a2b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #070d1f;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: #f5b942;
+  color: #070d1f;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0c1530;
+}
+::-webkit-scrollbar-thumb {
+  background: #d99a2b;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f5b942;
+}
